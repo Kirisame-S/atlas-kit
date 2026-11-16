@@ -2,6 +2,8 @@
 
 一套可以持續新增內容的繁體中文圖鑑網站基板。視覺方向參考 [Laws of UX](https://lawsofux.com/)，延伸我先前「選擇的背面」的原創設計，將單檔網頁整理為「專案規則＋內容資料＋共用模板＋自動建置」。
 
+[瀏覽網站](https://kirisame-s.github.io/atlas-kit/) · [使用基板指南](https://kirisame-s.github.io/atlas-kit/guide.html) · [AI 開發規則](AGENTS.md)
+
 目前有設計心理、介面觀察、寫作練習三類，共六篇示範內容。每篇都有幾何封面、觀念說明、前後對照、檢核清單與來源；首頁支援搜尋和分類。沒有後端、追蹤或 API 金鑰，JavaScript 關閉時仍可閱讀所有內容。
 
 ## 開始使用
@@ -16,6 +18,12 @@ python3 -m http.server 8000 --directory docs
 ```
 
 開啟 <http://localhost:8000>。也可以直接用瀏覽器開啟 `docs/index.html`；網站沒有 fetch 或模組載入限制。
+
+## 重用為另一個專案
+
+這個 Repository 已設定為 GitHub Template。點選 **Use this template → Create a new repository**，即可複製整套目錄與檔案。接著修改 `content/site.json` 的站名、首頁文案與分類，替換 `content/entries/` 的示範內容，再重新建置。新 Repository 需自行啟用 main 分支 `/docs` 的 GitHub Pages，並更新 README 的網站連結。
+
+操作方式依 [GitHub Template 官方文件](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)。
 
 ## 讓 AI 新增一篇內容
 
