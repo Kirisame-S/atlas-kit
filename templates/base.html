@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="$description">
+  <meta name="theme-color" content="#f4f2eb">
+  <title>$title</title>
+  <link rel="icon" href="${root}assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="${root}assets/style.css">
+  <script src="${root}assets/app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">跳到主要內容</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="${root}index.html" aria-label="$name 首頁"><span class="brand-mark" aria-hidden="true"></span><span>$name<small>$english</small></span></a>
+      <nav aria-label="主導覽"><a href="${root}index.html#collection" $home_current>探索圖鑑</a><a href="${root}guide.html" $guide_current>使用這個基板 <span aria-hidden="true">↗</span></a></nav>
+    </div>
+  </header>
+  <main id="main">$body</main>
+  <footer class="site-footer"><div class="wrap footer-inner"><span>$name · 一個可以持續生長的知識圖鑑</span><div><a href="${root}guide.html#credits">參考與製作說明</a><span class="footer-dot" aria-hidden="true">/</span><a href="${root}AGENTS.md">AGENTS.md ↗</a></div></div></footer>
+</body>
+</html>

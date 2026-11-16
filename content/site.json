@@ -1,0 +1,11 @@
+{
+  "name": "觀念圖鑑",
+  "english": "ATLAS OF IDEAS",
+  "tagline": "把一個觀念，\n看成一張圖。",
+  "description": "從設計心理到日常表達，用一張圖理解觀念，用一組對照看見差別。這是一座持續生長的小型知識圖鑑。",
+  "categories": [
+    {"id": "design", "title": "設計心理", "palette": "sage"},
+    {"id": "interface", "title": "介面觀察", "palette": "peach"},
+    {"id": "writing", "title": "寫作練習", "palette": "lavender"}
+  ]
+}
